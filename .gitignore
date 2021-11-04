@@ -1,5 +1,7 @@
-node_modules/
-.expo/
+node_modules/**/*
+constants/Environment.js
+.expo/*
+.vscode/*
 npm-debug.*
 *.jks
 *.p8
@@ -8,6 +10,4 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-
-# macOS
-.DS_Store
+web-report/
